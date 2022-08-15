@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(255,255,255);
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-container{
+    display: flex;
+}
+.img-container{
+    flex-basis: 20%;
+    margin: 30px;
+}
+.img-fix{
+    width: 100px;
+}
+ .nav-items{
+    flex-basis: 40%;
+    display: flex;
+    margin: 10px;
+ }
+ .nav-item{
+    margin-left: 50px;
+    font-size: 20px;
+ }
+ .svg{
+    flex-basis: 30%;
+    margin: 30px;
+   
+   
+ }
+ .left-section{
+    margin: 30px;
+    flex-basis: 50%;
+ }
+ .right-section{
+    flex-basis: 50%;
+ }
+ h3{
+    font-size: 28px;
+ }
+ .circle{
+    
+    width: 50px;
+ }
+ h1{
+    font-size: 53px;
+    font-weight: bolder;
+ }
+ h5{
+    font-size: 22px;
+    font-weight: 500;
+ }
+ .plus{
+    width: 18px;
+    margin-right: 8px;
+    background-color: #FE5E35;
+    border-radius: 50%;
+ }
+ .sub-headlines{
+    margin-left: 60px;
+}
+
+.intro-section{
+    display: flex;
+}
+.discount{
+    width: 100px;
+    position: relative;
+    top: 600px;
+    
+}
+.h4{
+   position: absolute;
+   top: 740px;
+   margin: 10px;
+   text-align: center;
+   color: white;
+   font-size: 15px;
+}
+
+.perc{
+     color: white;
+    position: absolute;
+   top: 760px;
+   margin: 10px;
+   text-align: center;
+   color: wheat;
+   font-size: 25px;
+}
+.headfone{
+    /* width: 700px;
+    */
+}
+.text{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #E4E4E4;
+}
+.action-btn{
+    background-color: #FE5E35;
+    border: 1px solid #FE5E35;
+    border-radius: 18px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    margin: 10px;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+     
+}
+.yellow-dot{
+    width: 20px;
+    border-radius:50% ;
+    background-color: yellow;
+    margin: 10px;
+}
+.tomato-dot{
+    width: 20px;
+    border-radius:50% ;
+    background-color: tomato;
+    margin: 10px;
+}  
+.black-dot{
+    width: 20px;
+    border-radius:50% ;
+    background-color:black;
+    margin: 10px;
+}
+.div{
+    text-align: center;
+}
